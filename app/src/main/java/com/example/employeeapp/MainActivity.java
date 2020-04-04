@@ -31,15 +31,15 @@ public class MainActivity extends AppCompatActivity {
 
         empDB = new DatabaseHelper(this);
 
-        editID = (EditText) findViewById(R.id.idEdit);
-        editName = (EditText) findViewById(R.id.nameEdit);
-        editAddress = (EditText) findViewById(R.id.addressEdit);
-        editAge = (EditText) findViewById(R.id.ageEdit);
-        editPosition = (EditText) findViewById(R.id.postionEdit);
-        submit = (Button) findViewById(R.id.button);
-        update =(Button) findViewById(R.id.buttonUpdate);
-        delete =(Button) findViewById(R.id.buttonDelete);
-        view = (Button) findViewById(R.id.buttonView);
+        editID = findViewById(R.id.idEdit);
+        editName = findViewById(R.id.nameEdit);
+        editAddress = findViewById(R.id.addressEdit);
+        editAge = findViewById(R.id.ageEdit);
+        editPosition = findViewById(R.id.postionEdit);
+        submit = findViewById(R.id.button);
+        update = findViewById(R.id.buttonUpdate);
+        delete = findViewById(R.id.buttonDelete);
+        view = findViewById(R.id.buttonView);
         showData();
         submitData();
         updateData();
