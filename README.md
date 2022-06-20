@@ -1,7 +1,7 @@
 # Employee Registration CRUD Android Application
 
 ## Overview
-A native nadroid application which is developed for the purpose of a employee registration system. Application includes functionalities of creating, reading, updating and deleting details related to the employee registration system.
+A native android application which is developed for an employee registration system. The application includes functionalities of creating, reading, updating and deleting details related to the employee registration system.
 
 ### Used Tools, Technologies
 
